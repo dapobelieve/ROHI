@@ -4,7 +4,7 @@ ROHI : {{$post->title}}
 @stop
 
 @section('pageContent')
-    <section class="slider-section" style="background-image:url(/assets/images/slider/2.jpg);">
+    <section class="slider-section" style="background-repeat: no-repeat;background-image:url(/assets/images/slider/2.jpg);">
             <div class="container">
                 <div class="slider">
                     <div class="text team-light">
@@ -23,7 +23,7 @@ ROHI : {{$post->title}}
                         <!-- Start single-item -->
                         <div class="blog-item clearfix">
                             <div class="img-holder">
-                               <figure><img src="{{$post->getImage()}}" alt="Images"></figure>
+                               <figure><img src="{{$post->singleImage()}}" alt="Images"></figure>
                             </div>
                             <br>
 

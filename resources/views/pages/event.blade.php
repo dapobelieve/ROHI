@@ -31,7 +31,7 @@ ROHI : Events
                             <!-- Start single-item -->
                             <div class="event-item">
                                 <div class="img-holder">
-                                   <figure><a href="{{  route('event.post', ['pid' => $post->slug]) }}"><img src="{{$post->getImage()}}" alt="Images"></a></figure>
+                                   <figure><a href="{{  route('event.post', ['pid' => $post->slug]) }}"><img src="{{$post->singleImage()}}" alt="Images"></a></figure>
                                     <div class="text">
                                         <h4>
                 <a href="{{  route('event.post', ['pid' => $post->slug]) }}">{{ $post->created_at->format('jS F Y ')}}<br> <span>{{ $post->title }}</span></a></h4>

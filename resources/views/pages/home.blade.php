@@ -25,7 +25,11 @@ Welcome to Restoration of Hope Initiative (ROHI)
                         <!-- Start single-item -->
                         <div class="welcome-item ">
                             <div class="img-holder">
-                               <figure><a href="{{  route('event.post', ['pid' => $evento->slug]) }}"><img src="{{$evento->getImage()}}" alt="Images"></a></figure>
+                               <figure>
+                                    <a href="{{  route('event.post', ['pid' => $evento->slug]) }}">
+                                        {!! $evento->getImage()!!}
+                                    </a>
+                                </figure>
                                 <!-- Start overlay -->
                                 <div class="overlay">
                                     <h4><a href="single-causes.html"><span>{{$evento->title}}</span></a></h4>
@@ -76,7 +80,7 @@ Welcome to Restoration of Hope Initiative (ROHI)
                     <div class="col-md-3 col-sm-4 col-xs-12">
                         <!-- Start single-item -->
                         <div class="mission-item">
-                            <i class="fa fa-sitem"></i>
+                            <i class="fa fa-sitemap"></i>
                             <h4>Mutual Understanding</h4>
                         </div>
                         <!-- End single-item -->
@@ -100,6 +104,47 @@ Welcome to Restoration of Hope Initiative (ROHI)
             </div>
         </section>
         <!--End volunteer-section -->
+        <section class="mission-seciton">
+           <div class="container">
+                <div class="section-title text-center">
+                <h2>Our <span>Parners</span></h2>
+               </div>
+               <div class="row">
+                    <div class="col-md-3 col-sm-6 col-xs-12">
+                        <!-- Start single-item -->
+                        <div class="mission-item">
+                            <img height="70px"  src="/assets/images/partners/1.jpg" alt="">
+                        </div>
+                        <!-- End single-item -->
+                    </div>
+                    <div class="col-md-3 col-sm-6 col-xs-12">
+                        <!-- Start single-item -->
+                        <div class="mission-item">
+                            <img height="70px" src="/assets/images/partners/2.jpg"  alt="">
+                        </div>
+                        <!-- End single-item -->
+                    </div>
+                    <div class="col-md-3 col-sm-6 col-xs-12">
+                        <!-- Start single-item -->
+                        <div class="mission-item">
+                            <img height="70px" src="/assets/images/partners/3.jpg"  alt="">
+                        </div>
+                        <!-- End single-item -->
+                    </div>
+                    <div class="col-md-3 col-sm-6 col-xs-12">
+                        <!-- Start single-item -->
+                        {{-- <div class="mission-item">
+                            <i class="fa fa-group"></i>
+                            <h4>Team Work</h4>
+                        </div> --}}
+                        <!-- End single-item -->
+                    </div>
+               </div>
+           </div>
+        </section>
+        <br>
+        <br>
+        <br>
 
 
 <!-- Modal -->

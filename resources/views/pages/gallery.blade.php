@@ -8,7 +8,7 @@ ROHI : Gallery
 @stop
 
 @section('pageContent')
-<section class="slider-section" style="background-image:url(/assets/images/slider/2.jpg);">
+<section class="slider-section" style="background-repeat: no-repeat;background-image:url(/assets/images/slider/2.jpg);">
             <div class="container">
                 <div class="slider">
                     <div class="text team-light">

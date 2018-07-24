@@ -27,13 +27,32 @@ class Post extends Model
 
     public function getImage()
     {
-      if(empty($this->image))
+      if(empty($this->img))
         {
-            $img = "/assets/images/blog/r1.jpg";
+            $img = "<img src='/assets/images/blog/r1.jpg' height=\"150>\"";
         }else
         {
-            $img = $this->image;
+            $img = cl_image_tag($this->pubId, 
+                        array(
+                            'cloud_name' => 'rohing',
+                            // 'width'      => 150,
+                            'height'     => 150,
+                            "crop"       => "fill"
+                        )
+                    );
         }
+        return $img;
+    }
+
+    public function singleImage()
+    {
+        if(empty($this->img))
+        {
+            $img = '/assets/images/blog/r1.jpg';
+        }else {
+            $img = $this->img;
+        }
+
         return $img;
     }
 }

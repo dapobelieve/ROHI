@@ -33,12 +33,6 @@ Route::get('contact', [
 ]);
 
 
-
-// Admin Section 
-// Dont Touch it
-
-
-
 /**
  *  Authentication
  */
