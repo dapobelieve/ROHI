@@ -2,23 +2,23 @@
 
 // Homepage
 Route::get('/', [
-	'uses' => '\App\Http\Controllers\PagesController@index',
+	'uses' => 'PagesController@index',
 	'as'   => 'home'
 ]);
 
 
 Route::get('gallery', [
-	'uses' => '\App\Http\Controllers\PagesController@gallery',
+	'uses' => 'PagesController@gallery',
 	'as'   => 'gallery'
 ]);
 
 Route::get('events', [
-	'uses' => '\App\Http\Controllers\EventController@event',
+	'uses' => 'EventController@event',
 	'as'   => 'events'
 ]);
 
 Route::get('events/{slug}', [
-	'uses' => '\App\Http\Controllers\EventController@getEvent',
+	'uses' => 'EventController@getEvent',
 	'as'   => 'event.post'
 ]);
 
@@ -37,39 +37,42 @@ Route::get('contact', [
  *  Authentication
  */
 Route::get('/signup', [
-	'uses' => '\App\Http\Controllers\AuthController@getSignup',
+	'uses' => 'AuthController@getSignup',
 	'as'   => 'ajagbe',
 	// 'middleware' => ['guest']
 	]);
 
 Route::post('/signup', [
-	'uses' => '\App\Http\Controllers\AuthController@postSignup',
+	'uses' => 'AuthController@postSignup',
 	'as'   => 'auth.signup',
 	'middleware' => ['guest'],
 	]);
 
 Route::get('/signin', [
-	'uses' => '\App\Http\Controllers\AuthController@getSignin',
+	'uses' => 'AuthController@getSignin',
 	'as'   => 'auth.signin',
 	// 'middleware' => ['guest'],
 	]);
 
 Route::post('/signin', [
-	'uses' => '\App\Http\Controllers\AuthController@postSignin',
+	'uses' => 'AuthController@postSignin',
 	// 'middleware' => ['guest'],
 	]);
 
 Route::get('/signout', [
-	'uses' => '\App\Http\Controllers\AuthController@getSignout',
+	'uses' => 'AuthController@getSignout',
 	'as'  =>  'auth'
 	]);
+
+Route::get('/report', 'ReportController@index')->name('report');
+Route::get('report/details/{id}', 'ReportController@getreport')->name('report-details');
+
 
 
 Route::group(['middleware' => ['authy']], function () {
 Route::get('/rohiadmin',[
-	'uses' => '\App\Http\Controllers\PostController@index',
+	'uses' => 'PostController@index',
 	'as'   => 'hadmin'
-
 ]);
 
 Route::resource('posts', 'PostController');

@@ -39,7 +39,7 @@ class GalleryController extends Controller
     {
              $this->validate($request, [
                 'postTitle' =>  "required|string|max:255",
-                'postImage' => "image|mimes:jpeg,jpg,png,bmp,svg|max:2048",
+                'postImage' => "image|mimes:jpeg,jpg,png,bmp,svg",
             ], 
             [
                 'postImage.mimes' => 'The image must have jpeg,jpg or png format',

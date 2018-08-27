@@ -85,6 +85,7 @@ Welcome to Restoration of Hope Initiative (ROHI)
                         </div>
                         <!-- End single-item -->
                     </div>
+
                 </div>
            </div>
         </section>
@@ -110,33 +111,46 @@ Welcome to Restoration of Hope Initiative (ROHI)
                 <h2>Our <span>Parners</span></h2>
                </div>
                <div class="row">
-                    <div class="col-md-3 col-sm-6 col-xs-12">
+                    <div class="col-md-2 col-sm-6 col-xs-12">
                         <!-- Start single-item -->
                         <div class="mission-item">
                             <img height="70px"  src="/assets/images/partners/1.jpg" alt="">
                         </div>
                         <!-- End single-item -->
                     </div>
-                    <div class="col-md-3 col-sm-6 col-xs-12">
+                    <div class="col-md-2 col-sm-6 col-xs-12">
                         <!-- Start single-item -->
                         <div class="mission-item">
                             <img height="70px" src="/assets/images/partners/2.jpg"  alt="">
                         </div>
                         <!-- End single-item -->
                     </div>
-                    <div class="col-md-3 col-sm-6 col-xs-12">
+                    <div class="col-md-2 col-sm-6 col-xs-12">
                         <!-- Start single-item -->
                         <div class="mission-item">
                             <img height="70px" src="/assets/images/partners/3.jpg"  alt="">
                         </div>
                         <!-- End single-item -->
                     </div>
-                    <div class="col-md-3 col-sm-6 col-xs-12">
+                    <div class="col-md-2 col-sm-6 col-xs-12">
                         <!-- Start single-item -->
-                        {{-- <div class="mission-item">
-                            <i class="fa fa-group"></i>
-                            <h4>Team Work</h4>
-                        </div> --}}
+                        <div class="mission-item">
+                            <img height="70px" src="/assets/images/partners/5.jpg"  alt="">
+                        </div>
+                        <!-- End single-item -->
+                    </div>
+                    <div class="col-md-2 col-sm-6 col-xs-12">
+                        <!-- Start single-item -->
+                        <div class="mission-item">
+                            <img height="70px" src="/assets/images/partners/4.png"  alt="">
+                        </div>
+                        <!-- End single-item -->
+                    </div>
+                    <div class="col-md-2 col-sm-6 col-xs-12">
+                        <!-- Start single-item -->
+                        <div class="mission-item">
+                            <img height="70px" src="/assets/images/partners/6.jpg"  alt="">
+                        </div>
                         <!-- End single-item -->
                     </div>
                </div>

@@ -6,31 +6,29 @@
                             <div class="widget">
                                 <h2>Contact Us</h2>
                                 <ul>
-                                <li><h5>
-                                    {{-- <i class="fa fa-map-marker" aria-hidden="true"></i> --}} 
-                                <address>
-                                <span style="padding-botttom:25px padding-left:50px"> Nurses Welfare House INEC Road Demsawo,<br>Jimeta Yola,<br> Adamawa State.</span>
-                                </address>
-                                    {{-- <div class="col-xs-6" style="padding-right:20px"></div>
-                                    <div class="col-xs-6"> --}}
-                                    {{-- </div> --}}
-                                </h5>
-                                </li>
+                                    <li>
+                                        <h5>
+                                            <address>
+                                               Nurses Welfare house former INEC Road <br>
+                                                Demsawo jimeta yola Adamawa State
+
+                                            </address>
+                                        </h5>
+                                    </li>
                                 <li>
                                     <h5>
+                                    {{-- <i class="fa fa-map-marker" aria-hidden="true"></i> --}} 
                                         <address>
-                                            Adjacent new Era Nursery and Primary School Jalingo Taraba State.
+                                        <span style="padding-botttom:25px padding-left:50px"> House 4 Gomari Airport Bus stop beside Simple Pharmacy Maiduguri Borno State.</span>
                                         </address>
+                                            {{-- <div class="col-xs-6" style="padding-right:20px"></div>
+                                            <div class="col-xs-6"> --}}
+                                            {{-- </div> --}}
                                     </h5>
                                 </li>
+                                
 
-                                <li><h5>
-                                {{-- <i class="fa fa-map-marker" aria-hidden="true"></i> --}}
-                                <address>
-                                    Suite 4 Red Roof Upstairs Opp. M.M Ali Oil Station Bama Road,<br> Maiduguri, Borno State.
-                                </address>
-                                </h5>
-                                </li>
+                                {{--  --}}
 
                                 <li><h5><i class="fa fa-envelope-o" aria-hidden="true"></i>support@restorationofhopeinitiative.org</h5></li>
                                 <li><h5><i class="fa fa-phone" aria-hidden="true"></i>07065784570, 08058917183</h5></li>
@@ -52,7 +50,7 @@
                                 <ul class="gallery">
                                     <li>
                                         <div class="img-holder">
-                                            <img src="/assets/images/gallery/1.jpg" alt="Images">
+                                            {{-- <img src="/assets/images/gallery/1.jpg" alt="Images"> --}}
                                             <div class="overlay">
                                                 <div class="box">
                                                     <div class="content">
@@ -64,7 +62,7 @@
                                     </li>
                                     <li>
                                         <div class="img-holder">
-                                            <img src="/assets/images/gallery/2.jpg" alt="Images">
+                                            {{-- <img src="/assets/images/gallery/2.jpg" alt="Images"> --}}
                                             <div class="overlay">
                                                 <div class="box">
                                                     <div class="content">
@@ -76,7 +74,7 @@
                                     </li>
                                     <li>
                                         <div class="img-holder">
-                                            <img src="/assets/images/gallery/3.jpg" alt="Images">
+                                            {{-- <img src="/assets/images/gallery/3.jpg" alt="Images"> --}}
                                             <div class="overlay">
                                                 <div class="box">
                                                     <div class="content">

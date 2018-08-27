@@ -15,6 +15,7 @@
     <ul class="navigation clearfix">
         <li class="{{ Request::is( '/' ) ? ' current' : ''  }}"><a href="{{route('home')}}">Home</a></li>
         <li class="{{ Request::is( 'events' ) ? ' current' : ''  }}"><a href="{{route('events')}}">Events</a></li>
+        <li class="{{ Request::is( '/report' ) ? ' current' : ''  }}"><a href="{{route('report')}}">Situation Report</a></li>
         <li class="{{ Request::is( 'gallery' ) ? ' current' : ''  }}"><a href="{{route('gallery')}}">Gallery</a></li>
         <li class="{{ Request::is( 'about' ) ? ' current' : ''  }}"><a href="{{route('about')}}">About Us</a></li>
         <li class="{{ Request::is( 'contact' ) ? ' current' : ''  }}"><a href="{{route('contact')}}">Contact</a></li>
